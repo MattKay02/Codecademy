@@ -1,2 +1,2 @@
 # Codecademy
-Codecademy learning site made while doing these courses
+Codecademy learning sites made while doing these courses
