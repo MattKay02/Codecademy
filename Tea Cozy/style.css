@@ -1,0 +1,150 @@
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* HEADER SECTION */
+
+header {
+    border-bottom: 1px solid seashell;
+}
+
+.nav-bar {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar img {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    margin: 0 10px;
+}
+
+.nav-bar ul li a {
+    color: seashell;
+    text-decoration: underline;
+    padding: 10px 15px;
+    justify-content: left;
+    transition: color 0.2s ease-in-out 0.2s;
+}
+
+.nav-bar ul li a:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+
+/* MISSION SECTION */
+.mission {
+    position: relative;
+    text-align: center;
+}
+
+.mission img {
+    width: 1200px;
+    height: 700px;
+}
+
+.mission .heading {
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+
+.mission h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: seashell;
+    background-color: black;
+    width: 100%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission h4 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: seashell;
+    background-color: black;
+    width: 100%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;;
+}
+
+
+/* Tea of the Month Seciotn*/
+
+.featured-tea {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.featured-tea h2 {
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.featured-tea h4 {
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.featured-tea .tea-types-flex-box {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-tea .tea-types-flex-box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featured-tea .tea-types-flex-box-item img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.featured-tea .tea-types-flex-box-item h4 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/* Location Section */
+
+

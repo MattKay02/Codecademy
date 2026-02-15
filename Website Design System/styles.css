@@ -1,0 +1,130 @@
+
+/* NAV-BAR STYLE */
+
+.nav-bar ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin:0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    display: inline;
+    float: left;
+}
+
+.nav-bar ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+.nav-bar ul li a:hover {
+    cursor: pointer;
+}
+
+/* Header Style */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px auto;
+    color: #333333;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #6a8484;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#aaaaaa;
+}
+
+/* */
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* content-box style */
+
+.content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px auto;
+    height: 200px auto;
+    overflow: hidden;
+}
+
+/* flexbox style */
+
+.flex-box {
+    align-items: left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.flex-box h3 {
+    font-size: 20px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-box p {
+    width: 150px;
+}
+
+.flex-box:hover {
+    width: 180px;
+    height: 180px;
+    transition: width 0.5s ease-in-out 0.5s, height 0.5s ease-in-out 0.5s;
+}
+
+/* Colour box styles */
+
+#pale-gray-box {
+    background-color: #aaaaaa;
+    width: 75px;
+    height: 75px;
+}
+
+#light-black-box {
+    background-color: #333333;
+    width: 75px;
+    height: 75px;
+}
+
+#battleship-gray-box {
+    background-color: #6a8484;
+    width: 75px;
+    height: 75px;
+}
+
+/* Font box styles */
+
+#arial-box {
+    font-family: Arial !important;
+}
+
+#helvetica-box {
+    font-family: Helvetica !important;
+}
+
+#sans-serif-box {
+    font-family: sans-serif !important;
+}
